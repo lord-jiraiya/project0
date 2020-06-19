@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deep Pharmacy</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #060;
+            }
+            @font-face {
+                font-family:raxey ;
+                src: url("raxey.otf");
+            }
+            @font-face {
+                font-family: bethania;
+                src: url(bethania.ttf);
+            }
+            #title{
+                margin-left: 20px;
+                font-family:raxey ;
+                font-size: 80px;
+            }
+            #subtitle{
+                font-family: bethania;
+                margin-left: 100px;
+            }
+            .top{
+                margin:0;
+                height: 100px;
+                background-color:#80808c;
+            }
+            .search{
+                margin-left: 50%;
+                height: 35px;
+                width:30%;
+
+            }
+            .itms{
+                font-weight: bold;
+                font-size: large;
+            }
+            .itms{
+                margin-top: 8px;
+
+            }
+            .itms li {
+                 display: inline;
+            }
+            .itms li + li {
+                margin-left: 35px;
+            }
+            .itms li a {
+              color:rgb(19, 1, 36);
+              text-decoration:double;    
+            }
+
+        </style>
+    </head>
+    <body >
+        
+        <div class="top" >
+            <h1 id="title">Deep Pharmacy</h1>
+        </div>
+        <br><br>
+        <div id="search">
+            <input class="search" type="text" placeholder="Search Your Medicine">
+            <!-- <button class="search"> Search</button> -->
+        </div>
+        <div class="itms">
+            <h2>Categories</h2>
+            <ul class="itms">
+                <li><a href="medicines.html">All Medicines</a></li>
+                <li>Fitness and Supplement</li>
+                <li>Diabetes</li>
+                <li>Healthcare Devices</li>
+                <li>Personal Care</li>
+            </ul>
+
+        </div>
+    </body>
+</html>
