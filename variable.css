@@ -18,6 +18,9 @@ header ul {
     font-family: nue;
     font-weight: bold;
     color: maroon; }
+    @media (max-width: 500px) {
+      header ul li.nav {
+        font-size: 80px; } }
     header ul li.nav a {
       font-style: none; }
 
