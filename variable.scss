@@ -1,0 +1,37 @@
+@font-face{
+    font-family: nue;
+    src: url("fonts/HelveticaNeue.ttf");
+}
+header{
+    h1{
+        font-size: 50px;
+        font-family: nue;
+        color: coral;
+    }
+    ul{
+        list-style: none;
+        
+            li{
+                display: inline-block;
+                text-align: center;
+            }
+            li.nav{
+                padding: 10px;
+                display: inline-flex;
+                float: right;
+                font-size: 30px;
+                font-family: nue;
+                font-weight: bold;
+                color:maroon;
+                a{
+                font-style: none;
+                }
+            }
+    }
+
+}
+.inline{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
