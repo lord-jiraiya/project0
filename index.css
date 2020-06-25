@@ -1,0 +1,60 @@
+body{
+    background-color:gainsboro;
+}
+@font-face {
+    font-family: nue;
+    src: url("fonts/HelveticaNeue.ttf");
+}
+header {
+    width: 100%;
+    
+    height: fit-content;
+}
+header li{
+    padding: 10px;
+    display: inline-flex;
+    font-family: nue;
+    font-weight: bold;
+}
+header ul li.heading{
+    margin-left: 40%;
+    font-size: 40px;
+}
+
+header ul li.nav{
+
+    display: inline-flex;
+    float: right;
+    font-size: 25px;
+    color: maroon; 
+}
+
+header ul li.nav a{
+    text-decoration: none;
+}
+
+h1.greet{
+    font-family: nue;
+    /* font-size: 50px; */
+    font-weight: bold;
+    font-style: italic;
+    font-style: underline;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    padding: 30px;
+    width: 400px;
+    align-self: center;
+    border: 5px black solid;
+}
+.container>div>img{
+    width: 250px;
+}
+.container>div>p{
+    font-size: 30px;
+    font-family: nue;
+}
+
