@@ -48,10 +48,19 @@ hr {
   .container li {
     margin: 30px; }
     .container li dd {
-      font-size: 25px;
-      text-indent: 20px; }
+      font-size: 25px; }
+
+h1 {
+  font-size: 50px;
+  font-family: nue;
+  color: coral;
+  text-decoration: double; }
 
 p {
   text-align: justify; }
+
+#achv {
+  font-size: 30px;
+  margin-bottom: 350px; }
 
 /*# sourceMappingURL=variable.css.map */

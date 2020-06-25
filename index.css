@@ -40,21 +40,57 @@ h1.greet{
     font-style: italic;
     font-style: underline;
 }
+@media (max-width:800px){
+    h1.greet::after{
+        content: "Welcome!";
+    }
+    .container div p{
+        font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    .container>div>img{
+    padding-right: 5px;
+    width: 200px;
+}
+.container>div{
+    margin: 20px;
+    display: flex; 
+    border: gray solid 2px;
+    width:350px;
+    background-color:cadetblue;
+    padding-right: 5px;
+
+}
+}
+@media(min-width: 801px){
+    h1.greet::after{
+        content:"Welcome to the world of GD!";
+    }  
+    .container div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+.container>div{
+    margin: 20px;
+    display: flex; 
+    border: gray solid 2px;
+    width:500px;
+    background-color:cadetblue;
+    padding-right: 5px;
+
+}  
+.container>div>img{
+    padding-right: 5px;
+    width: 300px;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
-}
-.container div{
-    padding: 30px;
-    width: 400px;
-    align-self: center;
-    border: 5px black solid;
-}
-.container>div>img{
-    width: 250px;
-}
-.container>div>p{
-    font-size: 30px;
-    font-family: nue;
-}
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+   
 
+}
