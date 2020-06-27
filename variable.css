@@ -1,14 +1,15 @@
+header h1, h1 {
+  font-size: 50px;
+  font-family: nue;
+  color: coral;
+  text-decoration: double; }
+
 @font-face {
   font-family: nue;
   src: url("fonts/HelveticaNeue.ttf"); }
 body {
   background-color: lightcyan; }
 
-header h1 {
-  font-size: 50px;
-  font-family: nue;
-  color: coral;
-  text-decoration: double; }
 header ul {
   list-style: none; }
   header ul li {
@@ -49,12 +50,6 @@ hr {
     margin: 30px; }
     .container li dd {
       font-size: 25px; }
-
-h1 {
-  font-size: 50px;
-  font-family: nue;
-  color: coral;
-  text-decoration: double; }
 
 p {
   text-align: justify; }
